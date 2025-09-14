@@ -61,3 +61,5 @@ public class Solution {
 - 结果变成 `[1, 12, 11, 0]`。
 - 最后 `j++ = 3`。
 
+<img width="420" height="1733" alt="双指针" src="https://github.com/user-attachments/assets/ade7a2db-7704-4e3f-9d10-21e8f947fd9a" />
+
