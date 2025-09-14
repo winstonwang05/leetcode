@@ -1,5 +1,5 @@
 # 283. 移动零
-
+注意：题目中的一定顺序并不是升序，而是移动过程中与原来数据之间的顺序不变
 ### 双向指针
 
 ```
@@ -62,4 +62,5 @@ public class Solution {
 - 最后 `j++ = 3`。
 
 <img width="420" height="1733" alt="双指针" src="https://github.com/user-attachments/assets/ade7a2db-7704-4e3f-9d10-21e8f947fd9a" />
+
 
