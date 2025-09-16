@@ -23,8 +23,8 @@ class Solution {
 }
 
 ```
+<img width="908" height="843" alt="image" src="https://github.com/user-attachments/assets/093a33b3-d3b9-46e3-8a8c-81dc9e3b6f00" />
 
-![image-20250916092613567](C:\Users\Winston\AppData\Roaming\Typora\typora-user-images\image-20250916092613567.png)
 
 ## 🌳 树结构
 
@@ -179,11 +179,9 @@ inorder(1.right, res) → inorder(6, res)
 
 # 2.迭代 + 栈方式
 
+<img width="1047" height="502" alt="image" src="https://github.com/user-attachments/assets/419bf7ff-eca6-4d82-bbac-a87d8ab4a823" />
 
-
-![image-20250916100456461](C:\Users\Winston\AppData\Roaming\Typora\typora-user-images\image-20250916100456461.png)
-
-![image-20250916100556464](C:\Users\Winston\AppData\Roaming\Typora\typora-user-images\image-20250916100556464.png)
+<img width="1043" height="497" alt="image" src="https://github.com/user-attachments/assets/8d972a2b-955a-42f7-9bb4-e53bfc2ed0d1" />
 
 ## ✅ 递归 vs 栈模拟的本质
 
@@ -232,3 +230,4 @@ inorder(1.right, res) → inorder(6, res)
 - 出栈的动作只发生在 `cur == null` 后，由外层循环控制。
 
 首先将每一个节点（子节点或者根节点）赋值给每一个栈帧，用来模拟栈，最外层循环条件是每一个栈帧为null说明出栈了，以及整个栈空间，说明都出栈了，也就是empty stack；内层循环条件就是每一个栈帧出栈，只要为null就pop出栈，所以首先1方法栈帧进栈，放到栈底，接着进入1的栈帧里不断得到1的左子节点一直赋值走下去，一旦为null，先进入5左子节点，5方法的栈帧放入栈中，在1栈帧的上面，接着对5不断赋值得到为空，栈帧出栈，并将5放入集合中接着走5的右子节点，由于4栈帧并不为空，以及整个栈都不为空，所以4栈帧进栈，发现左为空，直接出栈将4存入集合中，接着走4的右子树，为空结束，所以4栈帧出栈后，5才会跟着出栈，然后最大层面1栈帧走向右孩子，和递归确实本质一样，只是用栈来模拟递归操作
+
