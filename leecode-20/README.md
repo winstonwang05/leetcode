@@ -91,28 +91,7 @@
 - **只有完全匹配并且栈为空 → true**
 
 ```
-class Solution {
-    public boolean isValid(String s) {
-        if (s == null || s.length % 2 != 0) return false;
-        Qeque<Character> stack = new ArrayQueue<>();
-        for (char c : s.toCharArray) {
-            case '(':
-            case '{':
-            case '{':
-                stack.push(c);
-                break;
-            case ')':
-            if (stack.isEmpty() || stack.pop() != '(')  return false;
-            case '}':
-            if (stack.isEmpty() || stack.pop() != '{')  return false;
-            case ']':
-            if (stack.isEmpty() || stack.pop() != '[')  return false;
-                break;
-                default:
-                return false;
-        }
-        return stack.isEmpty();
-    }
-}
+
 ```
+
 
