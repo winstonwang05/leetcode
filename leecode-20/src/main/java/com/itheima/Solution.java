@@ -20,8 +20,10 @@ public class Solution {
                 // 一旦遇到右括号就判断栈顶的是否匹配或者栈为空
                 case '}':
                     if (stack.isEmpty() || stack.pop() != '{') return false;
+                    break;
                 case ')':
                     if (stack.isEmpty() || stack.pop() != '(') return false;
+                    break;
                 case ']':
                     if (stack.isEmpty() || stack.pop() != '[') return false;
                     break;
