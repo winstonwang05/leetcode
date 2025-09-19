@@ -149,6 +149,6 @@ head.next = null; // 将当前结点的指向为null
 
 ### 原链表头结点也就是回溯到最外层递归
 
-![image-20250918115304058](C:\Users\Winston\AppData\Roaming\Typora\typora-user-images\image-20250918115304058.png)
+<img width="1088" height="738" alt="image" src="https://github.com/user-attachments/assets/40ffd948-aba5-48c9-9e40-97ed9031f7f2" />
 
 就是递归到最外层的时候
