@@ -40,7 +40,6 @@ class Solution {
         return left; // 插入位置
     }
 }
-<img width="565" height="1682" alt="二分查找" src="https://github.com/user-attachments/assets/fd2e387a-5ac2-4f67-b889-56a44b92cb80" />
 
 
 ```
@@ -112,3 +111,4 @@ class Solution {
 - `left + (right - left) / 2` **不会溢出**，因为 `(right - left)` 永远在数组范围内
 - 所以推荐使用 `left + (right - left) / 2`
 
+<img width="565" height="1682" alt="二分查找" src="https://github.com/user-attachments/assets/8297fce0-160b-4ad0-836f-98dbade85613" />
